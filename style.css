@@ -1,0 +1,92 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; /* Светлый фон */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Контейнер для формы */
+.container {
+    max-width: 500px; /* Максимальная ширина контейнера */
+    margin: auto; /* Центрирование контейнера */
+    background: white; /* Белый фон для контейнера */
+    padding: 30px; /* Внутренние отступы */
+    border-radius: 8px; /* Закругленные углы */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Тень для контейнера */
+}
+
+/* Стили для логотипа */
+.logo {
+    font-size: 48px; /* Размер шрифта */
+    font-weight: bold; /* Жирный шрифт */
+    color: #007bff; /* Цвет текста */
+    text-align: center; /* Центрирование текста */
+    margin-bottom: 20px; /* Отступ снизу */
+    text-transform: uppercase; /* Преобразование текста в верхний регистр */
+    letter-spacing: 2px; /* Пробел между буквами */
+}
+
+/* Стили для заголовков */
+h2 {
+    text-align: center; /* Центрирование заголовка */
+    color: #333; /* Цвет заголовка */
+    margin-bottom: 20px; /* Отступ снизу */
+}
+
+/* Стили для формы */
+form {
+    display: flex; /* Используем flexbox для компоновки */
+    flex-direction: column; /* Вертикальная компоновка */
+}
+
+/* Стили для полей ввода */
+input {
+    margin-bottom: 15px; /* Отступ между полями */
+    padding: 12px; /* Внутренние отступы */
+    border: 1px solid #ccc; /* Цвет рамки */
+    border-radius: 5px; /* Закругленные углы */
+    font-size: 16px; /* Размер шрифта */
+}
+
+/* Стили для кнопок */
+button {
+    padding: 12px; /* Внутренние отступы */
+    background-color: #28a745; /* Зеленый фон */
+    color: white; /* Цвет текста */
+    border: none; /* Без рамки */
+    border-radius: 5px; /* Закругленные углы */
+    font-size: 16px; /* Размер шрифта */
+    cursor: pointer; /* Изменение курсора при наведении */
+    transition: background-color 0.3s; /* Плавный переход цвета */
+}
+
+/* Эффект наведения на кнопках */
+button:hover {
+    background-color: #218838; /* Темно-зеленый фон при наведении */
+}
+
+/* Стили для кнопки перехода */
+.button {
+    display: inline-block; /* Встраиваемый блок */
+    padding: 12px; /* Внутренние отступы */
+    background-color: #007bff; /* Синий фон */
+    color: white; /* Цвет текста */
+    border: none; /* Без рамки */
+    border-radius: 5px; /* Закругленные углы */
+    text-decoration: none; /* Убираем подчеркивание */
+    text-align: center; /* Центрирование текста */
+    margin-top: 20px; /* Отступ сверху */
+    transition: background-color 0.3s; /* Плавный переход цвета */
+}
+
+/* Эффект наведения на кнопке перехода */
+.button:hover {
+    background-color: #0056b3; /* Темно-синий фон при наведении */
+}
+
+/* Стили для параграфов */
+p {
+    text-align: center; /* Центрирование текста */
+    color: #666; /* Цвет текста */
+    margin-top: 10px; /* Отступ сверху */
+}
